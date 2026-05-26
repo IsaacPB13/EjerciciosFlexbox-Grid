@@ -1,0 +1,82 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkorchid;
+}
+
+#logo-header{
+    width: 25px;
+    height: 25px;
+}
+
+#btn-header{
+    color: white;
+    background-color: darkorchid;
+    border-radius: 25px;
+    padding: 5px;
+    margin: auto;
+}
+
+a:hover{
+    background-color:blueviolet
+}
+
+#hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+#img-hero{
+    width: 600px;
+    height: 400px;
+}
+
+#btn-hero-1{
+    margin: 50px;
+    color: white;
+    background-color: darkorchid;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+#btn-hero-2{
+    margin: 50px;
+    color: darkorchid;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+#beneficios{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-beneficios{
+    width: 30px;
+    height: 30px;
+    border: 5px solid white;
+    border-radius: 50px;
+}
+
+#productos{
+    display: flex;
+}
+
+#img-productos{
+    width: 275px;
+    height: 200px;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+}
+
+#img-foot{
+    width: 50px;
+    height: 50px;
+}
