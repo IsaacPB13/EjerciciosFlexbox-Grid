@@ -1,0 +1,36 @@
+*{
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#ejercicio1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#ejercicio2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#ejercicio3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    align-items: center;
+    justify-items: center;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
+
+#ejercicio4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+}
